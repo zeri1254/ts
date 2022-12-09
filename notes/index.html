@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notes-styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Notes</title>
+</head>
+
+<body>
+    <div class='container'>
+        <a href="login-page.html" class="login-btn-link">Log In</a>
+        <div class='rows'>
+            <div class='notes'>
+                <div class="add-note">
+                    <div class="plus">
+                        <div class="vertical"></div>
+                        <div class="horizontal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='modal' id='modal'>
+        <div class='modal-inner'>
+            <div class="modal-inner-top">
+                <input type="text" class="note-name-modal" placeholder="Note name">
+                <div class="note-name-modal-error">Введи</div>
+                <button class='submit-button'>Submit</button>
+            </div>
+            <div class='note-content-modal'>
+                <!-- <textarea name="" id="" rows="15" class="textarea"></textarea> -->
+                <div id="editor" class="textarea"></div>
+                <div class="note-content-modal-error">Введи</div>
+
+            </div>
+            <div class="delete-btn-wrapper">
+                <button class="delete-button-modal">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='modal' id='modal2'>
+        <div class='modal-inner'>
+            Loading
+            <div class='loading-gif'>
+                <img src="media/Misterious mist.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class='modal-overlay' id='modal-overlay'></div>
+    <script type='module' src="./notes.js"></script>
+</body>
+</html>

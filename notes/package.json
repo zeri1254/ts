@@ -1,0 +1,25 @@
+{
+  "name": "notes-ts-2022",
+  "version": "1.0.0",
+  "description": "Подготовить в `notes/` конфигурацию typescript-проекта:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.3.0.6:8080/git/dvesnin/notes-ts-2022.git"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
